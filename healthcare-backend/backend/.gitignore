@@ -1,0 +1,63 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================
+# Virtual Environments
+# ==========================
+.venv/
+venv/
+env/
+healthcare-backend/.venv/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+
+# ==========================
+# Databases
+# ==========================
+*.db
+*.sqlite3
+
+# ==========================
+# Runtime Data
+# ==========================
+logs/
+outputs/
+uploads/
+
+# ==========================
+# ML Models
+# ==========================
+models/BioClinicalBERT/
+*.incomplete
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Python Build
+# ==========================
+build/
+dist/
+*.egg-info/

@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "filename": "test_prescription.pdf",
+  "file_type": "pdf",
+  "total_pages": 1,
+  "language": "en",
+  "ocr_confidence": 1.0,
+  "ocr_lines_count": 0,
+  "low_confidence": false,
+  "ocr_text": "Rx: Tab Paracetamol 500mg\nTake 1 tablet after meals for fever.\nDr. Sharma",
+  "entities": {
+    "patient_name": null,
+    "age": null,
+    "gender": null,
+    "doctor_name": "Sharma",
+    "hospital_clinic": "",
+    "dates": [],
+    "disease": [
+      "Fever"
+    ],
+    "diagnosis": [],
+    "symptoms": [],
+    "lab_tests": [],
+    "medicines": [
+      {
+        "name": "Paracetamol",
+        "dosage": null,
+        "frequency": null,
+        "frequency_human": null,
+        "duration": null,
+        "form": null,
+        "route": null
+      }
+    ],
+    "dosage": [],
+    "frequency": [],
+    "duration": [],
+    "needs_manual_review": false,
+    "review_reasons": []
+  },
+  "pages": [
+    {
+      "page": 1,
+      "text": "Rx: Tab Paracetamol 500mg\nTake 1 tablet after meals for fever.\nDr. Sharma",
+      "confidence": 1.0,
+      "line_count": 3,
+      "low_confidence": false,
+      "lines": [
+        {
+          "text": "Rx: Tab Paracetamol 500mg",
+          "confidence": 1.0,
+          "bounding_box": [],
+          "order_index": 0
+        },
+        {
+          "text": "Take 1 tablet after meals for fever.",
+          "confidence": 1.0,
+          "bounding_box": [],
+          "order_index": 1
+        },
+        {
+          "text": "Dr. Sharma",
+          "confidence": 1.0,
+          "bounding_box": [],
+          "order_index": 2
+        }
+      ]
+    }
+  ],
+  "timing_seconds": {},
+  "processing_time": 0.022,
+  "ocr_time": 0.018,
+  "nlp_time": 0.001,
+  "output_saved_path": null
+}

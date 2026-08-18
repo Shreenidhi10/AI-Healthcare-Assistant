@@ -1,0 +1,51 @@
+# --- Core web framework ---
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+pydantic-settings
+email-validator
+
+# --- Database (single shared DB for every module) ---
+sqlalchemy
+# Uncomment for Postgres in production:
+# psycopg2-binary
+
+# --- Auth ---
+python-jose[cryptography]
+passlib[bcrypt]
+# passlib 1.7.4's bcrypt backend self-test breaks on bcrypt>=4.1 (raises
+# "password cannot be longer than 72 bytes" during a startup self-check
+# unrelated to the actual password). Pin to a known-compatible version.
+bcrypt==4.0.1
+python-multipart
+
+# --- OCR pipeline (image/PDF handling + preprocessing) ---
+opencv-python-headless
+numpy
+Pillow
+PyMuPDF
+
+# --- OCR engine (production text recognition) ---
+# Not installed in this dev/CI sandbox: paddlepaddle + paddleocr together
+# pull several hundred MB and paddleocr downloads its detection/recognition/
+# classification model weights from PaddleOCR's model servers on first run,
+# which requires outbound internet access this environment doesn't have.
+# app/services/ocr_service.py detects their absence and transparently falls
+# back to a stub OCR engine (OCR_ALLOW_STUB_ENGINE=True) so the rest of the
+# pipeline stays testable. Install these for real OCR in any environment
+# with internet access:
+# paddlepaddle
+# paddleocr
+
+# --- NLP entity extraction ---
+# app/services/nlp_service.py already runs a fully-functional regex/keyword
+# entity extractor with zero extra dependencies. Installing these two
+# upgrades it to transformer-based NER (BioClinicalBERT) automatically;
+# nothing else needs to change:
+# torch
+# transformers
+
+# --- Testing ---
+pytest
+httpx

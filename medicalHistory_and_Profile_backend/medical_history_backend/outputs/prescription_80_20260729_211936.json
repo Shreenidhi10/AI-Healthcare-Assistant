@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "filename": "prescription_80.png",
+  "file_type": "image",
+  "total_pages": 1,
+  "language": "en",
+  "ocr_confidence": 0.0,
+  "ocr_lines_count": 0,
+  "low_confidence": false,
+  "ocr_text": "",
+  "entities": {
+    "patient_name": null,
+    "age": null,
+    "gender": null,
+    "doctor_name": null,
+    "hospital_clinic": "",
+    "dates": [],
+    "disease": [],
+    "diagnosis": [],
+    "symptoms": [],
+    "lab_tests": [],
+    "medicines": [],
+    "dosage": [],
+    "frequency": [],
+    "duration": [],
+    "needs_manual_review": false,
+    "review_reasons": []
+  },
+  "pages": [
+    {
+      "page": 1,
+      "text": "",
+      "confidence": 0.0,
+      "line_count": 0,
+      "low_confidence": true,
+      "lines": []
+    }
+  ],
+  "timing_seconds": {},
+  "processing_time": 2.416,
+  "ocr_time": 2.416,
+  "nlp_time": 0.0,
+  "output_saved_path": null
+}

@@ -1,0 +1,1 @@
+export default ['English','Hindi','Tamil','Telugu','Kannada'];

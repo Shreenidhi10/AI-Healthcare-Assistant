@@ -1,0 +1,1 @@
+export default function StatusBadge({status="Completed"}){const c=status==="Completed"?"bg-success text-success-foreground":"bg-warning text-warning-foreground";return <span className={`rounded-full px-3 py-1 text-xs ${c}`}>{status}</span>}

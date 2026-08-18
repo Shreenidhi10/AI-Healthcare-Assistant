@@ -1,0 +1,73 @@
+# ==============================================================================
+# AI-Powered Healthcare Communication Assistant for Rural Communities
+# Master Python Requirements Specification
+# ==============================================================================
+
+# --- Core Web Framework & Asynchronous API Engine ---
+fastapi>=0.110.0,<0.115.0
+uvicorn[standard]>=0.28.0,<0.32.0
+starlette>=0.36.0,<0.40.0
+pydantic>=2.7.0,<3.0.0
+pydantic-settings>=2.2.0,<3.0.0
+python-multipart>=0.0.9
+email-validator>=2.0.0
+
+# --- Database, ORM & Storage ---
+sqlalchemy>=2.0.25,<2.1.0
+aiosqlite>=0.20.0
+# psycopg2-binary>=2.9.9  # Uncomment for PostgreSQL in production environments
+
+# --- Authentication, Encryption & Security ---
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+bcrypt==4.0.1  # Pinned to 4.0.1 to maintain passlib 1.7.4 compatibility
+cryptography>=42.0.0
+
+# --- Vector Database, Indexing & Neural Embeddings ---
+pinecone>=5.0.0
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+
+# --- Document Processing, OCR & Text Extraction ---
+pymupdf>=1.24.0
+pypdf>=4.0.0
+langchain-text-splitters>=0.2.0
+pillow>=10.2.0
+opencv-python-headless>=4.9.0.80
+
+# --- Optional Production OCR Engine (PaddleOCR) ---
+# Uncomment below for on-premise high-accuracy OCR server installations:
+# paddlepaddle>=2.6.0
+# paddleocr>=2.7.3
+
+# --- AI, Large Language Models (LLM) & Cloud Inference ---
+ollama>=0.2.0
+groq>=0.9.0
+google-genai>=0.1.0
+
+# --- Speech Recognition (STT), Speech Synthesis (TTS) & Audio ---
+openai-whisper>=20231117
+gTTS>=2.5.0
+playsound==1.2.2
+imageio-ffmpeg>=0.5.0
+
+# --- Natural Language Processing & Multilingual Translation ---
+langdetect>=1.0.9
+transformers>=4.38.2
+
+# --- Deep Learning, PyTorch & Numerical Computation ---
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+
+# --- Caching, Network Utilities & Environment ---
+python-dotenv>=1.0.0
+requests>=2.31.0
+httpx>=0.27.0
+cachetools>=5.3.0
+
+# --- Testing, Validation & Development Tools ---
+pytest>=8.0.0
+pytest-asyncio>=0.23.0

@@ -1,0 +1,1 @@
+export default function ResultCard({title,children}){return(<div className="rounded-xl border bg-card p-5 shadow-card"><h2 className="mb-3 font-semibold">{title}</h2>{children}</div>);}

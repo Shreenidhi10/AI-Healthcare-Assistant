@@ -1,0 +1,2 @@
+import StatusBadge from "../common/StatusBadge";
+export default function HistoryCard({title,date,status}){return(<div className="rounded-xl border bg-card p-4 shadow-card"><h3 className="font-semibold">{title}</h3><p className="text-sm text-muted-foreground">{date}</p><div className="mt-3"><StatusBadge status={status}/></div></div>);}

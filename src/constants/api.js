@@ -1,0 +1,1 @@
+export const API={BASE_URL:import.meta.env.VITE_API_URL,LOGIN:"/auth/login",REGISTER:"/auth/register",PROCESS:"/process",HISTORY:"/prescriptions",PROFILE:"/profile",CONTACT:"/contact/",TRANSLATE:"/translate/"};

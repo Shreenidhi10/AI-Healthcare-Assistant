@@ -1,0 +1,1 @@
+export const ROUTES={HOME:"/",LOGIN:"/login",REGISTER:"/register",UPLOAD:"/upload",RESULTS:"/results",HISTORY:"/history",PROFILE:"/profile"};

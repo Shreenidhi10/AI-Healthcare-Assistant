@@ -1,0 +1,10 @@
+{
+  "name": "infosys-frontend-proxy",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix .. run dev",
+    "build": "npm --prefix .. run build",
+    "preview": "npm --prefix .. run preview"
+  }
+}

@@ -1,0 +1,1 @@
+export default function LanguageChip({language}){return <span className="rounded-full bg-accent px-3 py-1 text-xs">{language}</span>}

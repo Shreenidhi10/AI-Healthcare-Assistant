@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "filename": "test_prescription.png",
+  "file_type": "image",
+  "total_pages": 1,
+  "language": "en",
+  "ocr_text": "Rx: Tab Amoxicillin 500mg, Take 1 tablet twice daily after food for 5 days. Dr. Smith",
+  "ocr_confidence": 0.92,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Rx: Tab Amoxicillin 500mg, Take 1 tablet twice daily after food for 5 days. Dr. Smith",
+      "confidence": 0.92,
+      "line_count": 1,
+      "low_confidence": false,
+      "lines": [
+        {
+          "text": "Rx: Tab Amoxicillin 500mg, Take 1 tablet twice daily after food for 5 days. Dr. Smith",
+          "confidence": 0.92,
+          "bounding_box": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              100.0,
+              0.0
+            ],
+            [
+              100.0,
+              20.0
+            ],
+            [
+              0.0,
+              20.0
+            ]
+          ],
+          "order_index": 0
+        }
+      ]
+    }
+  ],
+  "entities": {
+    "patient_name": null,
+    "doctor_name": "Smith",
+    "hospital": null,
+    "age": null,
+    "gender": null,
+    "disease": [],
+    "symptoms": [],
+    "diagnosis": [],
+    "medicines": [
+      {
+        "name": "Amoxicillin",
+        "dosage": null,
+        "frequency": null,
+        "frequency_human": null,
+        "duration": null,
+        "form": null,
+        "route": null
+      }
+    ],
+    "lab_tests": [],
+    "dates": [],
+    "needs_review": true
+  },
+  "processing_time": 0.775,
+  "ocr_time": 0.774,
+  "nlp_time": 0.0,
+  "output_saved_path": null
+}

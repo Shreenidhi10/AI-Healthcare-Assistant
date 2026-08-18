@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.venv/
+**/.venv/
+
+# Production build
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python & Cache
+__pycache__/
+*.pyc
+
+# Local Prototypes / Duplicate Builds
+infosys_final_prototype/
+
+# Vite
+.vite/
+
+# Coverage
+coverage/
+
+# ESLint Cache
+.eslintcache
+
+# Temporary files
+*.tmp
+*.temp
+*.traineddata
+dev-dist/
+chat_sessions/
+
+# Misc
+*.swp

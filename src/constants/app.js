@@ -1,0 +1,1 @@
+export const APP={NAME:"ClarityCare",TAGLINE:"Medical advice explained simply."};
