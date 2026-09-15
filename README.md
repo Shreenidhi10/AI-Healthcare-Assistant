@@ -253,9 +253,7 @@ infosys-chatbot/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Springboard-Internship-2026/AI-Powered-Healthcare-Communication-Assistant-for-Rural-Communities_Jun_2026.git
-cd AI-Powered-Healthcare-Communication-Assistant-for-Rural-Communities_Jun_2026
-git checkout sayotrik
+git clone https://github.com/Shreenidhi10/AI-Healthcare-Assistant
 ```
 
 ### 2. Configure Python Virtual Environment
