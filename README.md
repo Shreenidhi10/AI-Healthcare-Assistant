@@ -481,5 +481,5 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 ---
 
 <p align="center">
-  <b>Built with ❤️ for Rural Healthcare Accessibility • Springboard Internship 2026</b>
+  <b>Built with ❤️ for Rural Healthcare Accessibility • Shreenidhi</b>
 </p>
